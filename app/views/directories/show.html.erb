@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @directory.name %>
+</p>
+
+<p>
+  <b>Phonenumber:</b>
+  <%= @directory.phonenumber %>
+</p>
+
+<p>
+  <b>Friend:</b>
+  <%= @directory.friend %>
+</p>
+
+
+<%= link_to 'Edit', edit_directory_path(@directory) %> |
+<%= link_to 'Back', directories_path %>
